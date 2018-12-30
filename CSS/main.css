@@ -1,0 +1,60 @@
+body 
+{
+	margin: 0;
+}
+#navbar
+{
+    background-color: #212121;
+    height: 60PX;
+    width: 100%;
+}
+#navbar-brand{
+    font-weight: bold;
+    font-size: 30px;
+	position: left;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 6px;
+    margin-left:15px;
+    text-decoration: none;
+}
+#nav-link{
+    color: #FFFFFF;
+    float:right;
+    margin-top: 10px;
+    margin-right: 25px;
+    font-size: 25px;
+}
+.numItems
+{
+    float: right;
+    color: #FFFFFF;
+    margin-top:8px;
+    font-size: 25px;
+    margin-right: 10px;
+    
+}
+img
+{
+    height: 350px; 
+}
+.shop-items
+{
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 25px; 
+    padding-bottom: 45px;
+}
+
+h1{
+    font-size: 15px;
+    font-weight: bold;
+}
+h2{
+ font-size: 28px;
+    font-weight: bold;
+}
+h3{
+    font-size: 40px;
+}

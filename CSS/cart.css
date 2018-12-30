@@ -1,0 +1,110 @@
+body 
+{
+	margin: 0;
+}
+#navbar
+{
+    background-color: #212121;
+    height: 60PX;
+    width: 100%;
+}
+#navbar-brand{
+    font-weight: bold;
+    font-size: 30px;
+	position: left;
+    color: #FFFFFF;
+    display: inline-block;
+    margin-top: 6px;
+    margin-left:15px;
+    text-decoration: none;
+}
+#nav-link{
+    color: #FFFFFF;
+    float:right;
+    margin-top: 10px;
+    margin-right: 25px;
+    font-size: 25px;
+}
+.numItems
+{
+    float: right;
+    color: #FFFFFF;
+    margin-top:8px;
+    font-size: 25px;
+    margin-right: 10px;
+    
+}
+img
+{
+    height: 130px; 
+}
+
+.shop-items
+{
+    display: flex; 
+    flex-direction: column;
+    align-items: center; 
+    margin-top: 25px; 
+    padding-bottom: 45px;
+}
+
+.CART-ITEMS
+{
+    font-weight: bold;
+    font-size: 10px;
+    text-align: center;
+}
+.cart-items{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    margin: 10px;
+    padding-top: 10px;
+    background-color: #f5f5f5;
+    border: 2px solid #487cc5;
+    border-radius: 10px;
+    height: 270px;
+    width: 200px;
+    display: inline-block;
+}
+
+
+h1{
+    font-size: 15px;
+    font-weight: bold;
+}
+h2{
+ font-size: 28px;
+    font-weight: bold;
+}
+h3{
+    font-size: 40px;
+}
+#Kundvagn{
+    display: block; 
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+}
+.totalPrice{
+    display: block; 
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+.button{ 
+    display: block;
+    margin-bottom: 70px;
+    text-align: center;
+    font-size: 30px;
+}
+.removeBtn {
+    background-color: #E64E4E;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-radius: 12px;
+}
