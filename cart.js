@@ -44,7 +44,7 @@ function createProductItem(product)
     container.className = ("cart-items")
 
     var image = document.createElement("img")
-    image.src= "Images/" + product.image
+    image.src= "Assets/" + product.image
     container.appendChild(image)
 
     var header = document.createElement("h2")

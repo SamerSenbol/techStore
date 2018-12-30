@@ -61,7 +61,7 @@ function createProductItem(product)
     container.appendChild(description) 
 
     var image = document.createElement("img")
-    image.src= "Images/" + product.image
+    image.src= "Assets/" + product.image
     container.appendChild(image)
 
     var price = document.createElement("h5")
