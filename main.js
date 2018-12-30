@@ -8,7 +8,7 @@ if(localStorage.shoppingCart)
 /* Geting products from the json file and store them in a gobal variable */
 function loadProducts() 
 {
-    fetch("./products.json")
+    fetch("/products.json")
     .then(function(response) 
     {
         return response.json();
