@@ -1,4 +1,3 @@
-
 var shoppingCart = []
 
 if(localStorage.shoppingCart)
@@ -6,7 +5,6 @@ if(localStorage.shoppingCart)
     shoppingCart = JSON.parse(localStorage.shoppingCart)
     
 }
-console.log(shoppingCart)
 
  // This would also be a good place to initialize other parts of the UI
 function initSite() 

@@ -5,7 +5,6 @@ if(localStorage.shoppingCart)
 {
     shoppingCart = JSON.parse(localStorage.shoppingCart) 
 }
-console.log(shoppingCart)
 /* Geting products from the json file and store them in a gobal variable */
 function loadProducts() 
 {
