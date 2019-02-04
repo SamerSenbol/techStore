@@ -11,6 +11,7 @@ function initSite()
 {
     updaetCounterCart()
     addCartItemsToWebbPage();
+    totalPrice();
    
 }
 
@@ -81,4 +82,13 @@ function updaetCounterCart()
     var numItems = document.querySelector(".numItems");
     numItems.innerHTML = shoppingCart.length;
     
+}
+function totalPrice() {
+
+    var total = 0;
+    for( var i = 0; i < shoppingCart.length; i++){
+        total += shoppingCart[i].price;
+    }
+    document.getElementById("totalPrice").append(total + " kr")
+  
 }
