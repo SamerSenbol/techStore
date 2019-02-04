@@ -73,10 +73,12 @@ function remove(product)
     localStorage.shoppingCart = JSON.stringify(shoppingCart)
 
     updaetCounterCart()
+    window.location.reload();
 }
 
 function updaetCounterCart()
 {
     var numItems = document.querySelector(".numItems");
     numItems.innerHTML = shoppingCart.length;
+    
 }
